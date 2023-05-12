@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+h1 {
+  font-family: 'Itim', sans-serif;
+  color: #619B8A;
+  font-size: 38px;
+}
+
+h2, h3, h4 {
+  font-family: 'Itim', sans-serif;
+  color: #619B8A;
+  font-size: 34px;
+}
+
+
+.topicsList .topic {
+  font-size: 16px;
+}
+
+p.caption {
+  font-size: 0.6em;
+}
+
+
+body {
+  background-color: #fbf7f5;
+  font-size: 17px;
+}
+
+p {
+  color: #01161E;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 180%;
+}
+
+p.caption {
+  font-size: 12px;
+  font-color: dimgray
+}
+
+
+hr {
+  border: 7px solid gainsboro;
+  border-radius: 0px;
+}
+
+code {
+  font-size: 87.5%;
+  color: #DD5E98;
+  word-wrap: break-word;
+}
+
+pre {
+  font-size: 15px;
+}
+
+.pagedtable-wrapper {
+  border-radius: 0px;
+  border-color: white;
+  background-color: #ececec;
+}
+
+a {
+  color: #007bff ;
+}
+
+a:hover {
+  color: #DD5E98;
+}
+
+.topics {
+  width: 75%;
+  overflow-x: auto;
+  padding-bottom: 200px;
+  padding-left: 10px;
+}
+
+.topicsList .topic {
+  font-weight: bold;
+  border-color: gainsboro;
+  background-color: white;
+  border-left: none;
+  padding-left: 10px;
+}
+
+.topic:hover {
+  background-color: #a8305e;
+  color: white;
+}
+
+.topic.current .nav-link {
+  border-color: black !important;
+  background-color: #619B8A !important;
+  color: white !important;
+}
+
+.nav-link {
+  background-color: white;
+  color: #619B8A !important; 
+}
+
+.pageContent {
+  padding-top: 30px;
+}
+
+/* Modify buttons to be consistent with R4beginners website*/
+
+.btn-default {
+    background-color: transparent;
+    color: #619B8A;
+    font-size: 16px;
+    border-color: #619B8A;
+    border: 1px solid;
+}
+
+.btn-primary {
+    background-color: transparent;
+    color: #619B8A;
+    font-size: 16px;
+    border-color: #619B8A;
+    border: 1px solid;
+}
+
+.btn-default:hover {
+    background-color: #619B8A;
+    color: white;
+    font-size: 16px;
+    border-color: #619B8A;
+    border: 1px solid;
+}
+
+.btn-primary:hover {
+    background-color: #619B8A;
+    color: white;
+    font-size: 16px;
+    border-color: #619B8A;
+    border: 1px solid;
+}
+
+
+.btn-success, .btn-xs, .btn-tutorial-run, .pull-right {
+  background-color: #619B8A;
+  color: white;
+}
+
+
